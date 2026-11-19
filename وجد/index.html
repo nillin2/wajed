@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="site.title">وجد | مطبخ إيطالي أمريكي</title>
+  <meta name="description" data-i18n="site.description" content="مطبق إيطالي أمريكي يجمع بين أصالة المطبخ الإيطالي العريق وروح المطبخ الأمريكي العريب من خلال وصفات مبتكرة.">
+  <meta property="og:title" content="وجد | مطبخ إيطالي أمريكي">
+  <meta property="og:description" content="نكهتان من عالمين، وتجربة بطعم مختلف.">
+  <meta property="og:type" content="restaurant">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="siteHeader"></header>
+
+  <main id="siteMain">
+    <!-- البطل -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="hero-badge" data-i18n="home.badge">مطبخ إيطالي أمريكي</span>
+          <h1 class="hero-title">
+            <span data-i18n="home.heroLead">نكهتان من عالمين،</span><br>
+            <span class="accent" data-i18n="home.heroMain">وتجربة بطعم مختلف.</span>
+          </h1>
+          <p class="hero-sub" data-i18n="home.heroSub">نحن في «وجد» نجمع بين أصالة مطبخ إيطاليا الأصيل وثقافة المطبخ الأمريكي العريب، لنكهات مبتكرة تمزج بين التراثين العريقين في طبق واحد يحمل سر العالمين.</p>
+          <div class="hero-cta-row">
+            <a href="menu.html" class="btn" data-i18n="home.heroCtaMenu">استكشف المنيو</a>
+            <a href="#" class="btn btn-whatsapp" data-wa-generic data-i18n="home.heroCtaOrder">اطلب عبر واتساب</a>
+            <a href="story.html" class="btn btn-outline" data-i18n="home.heroCtaStory">تعرّف علينا</a>
+          </div>
+          <p class="hero-note" data-i18n="home.heroNote">الطلبات تتم عبر واتساب مباشرة، دون تعقيدات</p>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-blob">
+            <img class="hero-plate" src="images/dishes/spaghetti.svg" alt="طبق معكرونة">
+          </div>
+          <div class="float-card float-1">
+            <svg class="fc-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v10M9 9h6M9 12h6M9 15h6" stroke="currentColor" stroke-width="2"/></svg>
+            <div><strong data-i18n="home.f1Title">Italian Soul</strong><small data-i18n="home.f1Tag">الروح الإيطالية</small></div>
+          </div>
+          <div class="float-card float-2">
+            <svg class="fc-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 12h16M7 9v6M17 9v6" stroke="currentColor" stroke-width="2"/></svg>
+            <div><strong data-i18n="home.f2Title">American Heart</strong><small data-i18n="home.f2Tag">القلب الأمريكي</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الأطباق المميزة -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.featuredEyebrow">مميزات المختبر</span>
+          <h2 class="section-title" data-i18n="home.featuredTitle">أطباق مميزة</h2>
+          <p class="section-sub" data-i18n="home.featuredSub">من مختبر النكهات الذي يجمع بين الإيطالية والأمريكية — اخترنا لك أفضل الاختراعات لتجربة البداية.</p>
+        </div>
+        <div class="dish-grid" id="featuredGrid"></div>
+        <div class="text-center" style="margin-top: 2.6rem;">
+          <a href="menu.html" class="btn btn-outline" data-i18n="home.viewMenu">عرض المنيو كامل</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- فكرة المزيج -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.fusionEyebrow">الفكرة</span>
+          <h2 class="section-title" data-i18n="home.fusionTitle">فكرة وجد</h2>
+          <p class="section-sub" data-i18n="home.fusionSub">لم نكتفِ بالدمج السطحي، بل أعادنا الجمع بين أصناف الطماطم الإيطالية الفاخرة وأساليب التحضير السريعة والأنيقة المألوفة في أمريكا.</p>
+        </div>
+        <div class="fusion-grid">
+          <div class="fusion-card">
+            <div class="fusion-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 9h6M9 12h6M9 15h6"/></svg>
+            </div>
+            <h3 data-i18n="home.f1Title">Italian Soul</h3>
+            <p data-i18n="home.f1Text">من بولونيا إلى نابولي، نحتفظ بأصالة كل قطعة وكل صلصة.</p>
+          </div>
+          <div class="fusion-card">
+            <div class="fusion-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M4 12h16M7 9v6M17 9v6" stroke-linecap="round"/></svg>
+            </div>
+            <h3 data-i18n="home.f2Title">American Heart</h3>
+            <p data-i18n="home.f2Text">من البرغر العريب إلى البيتزا الكرزية، نضيف لمسة حماسية.</p>
+          </div>
+          <div class="fusion-card">
+            <div class="fusion-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18M5 5l14 14M19 5L5 19"/></svg>
+            </div>
+            <h3 data-i18n="home.f3Title">The Fusion</h3>
+            <p data-i18n="home.f3Text">كل طبق في «وجد» هو اختراع حي يجمع بين القوتين قبل أن يصبحا طعمًا واحدًا.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الهوية والتغليف -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.identityEyebrow">الهوية</span>
+          <h2 class="section-title" data-i18n="home.identityTitle">هوية المطبخ والتغليف</h2>
+          <p class="section-sub" data-i18n="home.identitySub">نطرح هويتنا من الداخل: علب ومأكولات، أكياس طلب، أكواب ومجوهرات — كلها تحكي هوية واحدة.</p>
+        </div>
+        <div class="pkg-grid">
+          <div class="pkg-card">
+            <img src="images/packaging/box.svg" alt="">
+            <h3 data-i18n="pkg.box">علب الأطباق</h3>
+            <p data-i18n="pkg.boxDesc">علب مخصصة تحمل هوية المطبق في كل وجبة.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/bag.svg" alt="">
+            <h3 data-i18n="pkg.bag">أكياس الطلب</h3>
+            <p data-i18n="pkg.bagDesc">أكياس توصيل تحمل رسومة الطلب والهوية.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/cup.svg" alt="">
+            <h3 data-i18n="pkg.cup">الأكواب</h3>
+            <p data-i18n="pkg.cupDesc">أكواب إضافية تحمل رمز المطبق.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/sticker.svg" alt="">
+            <h3 data-i18n="pkg.sticker">الملصقات</h3>
+            <p data-i18n="pkg.stickerDesc">ملصقات تحمل رسومة المطبق اللطيفة.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/closing.svg" alt="">
+            <h3 data-i18n="pkg.closing">ملصقات الإغلاق</h3>
+            <p data-i18n="pkg.closingDesc">دوائر إغلاق تحمي الطلب وترمز للابتكار.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- معرض صور -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.galleryEyebrow">المعرض</span>
+          <h2 class="section-title" data-i18n="home.galleryTitle">معرض الصور</h2>
+          <p class="section-sub">لمحات من مطبقنا، عرباتنا، وأجواء المطبخ.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item"><img src="images/dishes/pizza.svg" alt="بيتزا"><figcaption class="gallery-caption" data-i18n="menu.title">بيتزا</figcaption></figure>
+          ...
+        </div>
+      </div>
+    </section>
+
+    <!-- الدعوة -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2 data-i18n="home.ctaTitle">جاهز لبدء المذاق؟</h2>
+          <p data-i18n="home.ctaSub">اطلب طبقك المفضل عبر واتساب مباشرة، أو استكشف قائمة المختبرات في المنيو.</p>
+          <div class="cta-actions">
+            <a href="menu.html" class="btn btn-cream" data-i18n="home.heroCtaMenu">استكشف المنيو</a>
+            <a href="#" class="btn btn-whatsapp" data-wa-generic data-i18n="home.heroCtaOrder">اطلب عبر واتساب</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+```
+
+Gallery on home: I'll do 6 items with dish images. Let me write gallery items with captions via keys? Captions: I referenced data-i18n="menu.title" which is wrong. Let me give gallery captions their own treatment: use dish names? Simplest: caption via data-i18n keys like 'gallery.item1'? Too many.
+
+Alternative: gallery captions static Arabic text (they're placeholders). Since content is demo anyway, static captions are acceptable. But better bilingual... I'll use static Arabic captions for gallery items (e.g., 'بيتزا مارغريتا'). Fine for demo; swapping later is easy.
+
+Actually, to keep i18n completeness, gallery caption elements can just have static text — acceptable.
+
+Now write the full index.html.</think>الآن سأكتب الصفحة الرئيسية بالكامل:<tool_call>write<arg_key>content</arg_key><arg_value><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="site.title">وجد | مطبخ إيطالي أمريكي</title>
+  <meta name="description" data-i18n="site.description" content="مطبق إيطالي أمريكي يجمع بين أصالة المطبخ الإيطالي العريق وروح المطبخ الأمريكي العريب من خلال وصفات مبتكرة.">
+  <meta property="og:title" content="وجد | مطبخ إيطالي أمريكي">
+  <meta property="og:description" content="نكهتان من عالمين، وتجربة بطعم مختلف.">
+  <meta property="og:type" content="restaurant">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="siteHeader"></header>
+
+  <main id="siteMain">
+    <!-- البطل -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="hero-badge" data-i18n="home.badge">مطبخ إيطالي أمريكي</span>
+          <h1 class="hero-title">
+            <span data-i18n="home.heroLead">نكهتان من عالمين،</span><br>
+            <span class="accent" data-i18n="home.heroMain">وتجربة بطعم مختلف.</span>
+          </h1>
+          <p class="hero-sub" data-i18n="home.heroSub">نحن في «وجد» نجمع بين أصالة مطبخ إيطاليا الأصيل وثقافة المطبخ الأمريكي العريب، لنكهات مبتكرة تمزج بين التراثين العريقين في طبق واحد يحمل سر العالمين.</p>
+          <div class="hero-cta-row">
+            <a href="menu.html" class="btn" data-i18n="home.heroCtaMenu">استكشف المنيو</a>
+            <a href="#" class="btn btn-whatsapp" data-wa-generic data-i18n="home.heroCtaOrder">اطلب عبر واتساب</a>
+            <a href="story.html" class="btn btn-outline" data-i18n="home.heroCtaStory">تعرّف علينا</a>
+          </div>
+          <p class="hero-note" data-i18n="home.heroNote">الطلبات تتم عبر واتساب مباشرة، دون تعقيدات</p>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-blob">
+            <img class="hero-plate" src="images/dishes/spaghetti.svg" alt="طبق معكرونة">
+          </div>
+          <div class="float-card float-1">
+            <svg class="fc-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v10M9 9h6M9 12h6M9 15h6" stroke="currentColor" stroke-width="2"/></svg>
+            <div><strong data-i18n="home.f1Title">Italian Soul</strong><small data-i18n="home.f1Tag">الروح الإيطالية</small></div>
+          </div>
+          <div class="float-card float-2">
+            <svg class="fc-icon" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 12h16M7 9v6M17 9v6" stroke="currentColor" stroke-width="2"/></svg>
+            <div><strong data-i18n="home.f2Title">American Heart</strong><small data-i18n="home.f2Tag">القلب الأمريكي</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الأطباق المميزة -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.featuredEyebrow">مميزات المختبر</span>
+          <h2 class="section-title" data-i18n="home.featuredTitle">أطباق مميزة</h2>
+          <p class="section-sub" data-i18n="home.featuredSub">من مختبر النكهات الذي يجمع بين الإيطالية والأمريكية — اخترنا لك أفضل الاختراعات لتجربة البداية.</p>
+        </div>
+        <div class="dish-grid" id="featuredGrid"></div>
+        <div class="text-center" style="margin-top: 2.6rem;">
+          <a href="menu.html" class="btn btn-outline" data-i18n="home.viewMenu">عرض المنيو كامل</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- فكرة المزيج -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.fusionEyebrow">الفكرة</span>
+          <h2 class="section-title" data-i18n="home.fusionTitle">فكرة وجد</h2>
+          <p class="section-sub" data-i18n="home.fusionSub">لم نكتفِ بالدمج السطحي، بل أعادنا الجمع بين أصناف الطماطم الإيطالية الفاخرة وأساليب التحضير السريعة والأنيقة المألوفة في أمريكا.</p>
+        </div>
+        <div class="fusion-grid">
+          <div class="fusion-card">
+            <div class="fusion-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 9h6M9 12h6M9 15h6"/></svg>
+            </div>
+            <h3 data-i18n="home.f1Title">Italian Soul</h3>
+            <p data-i18n="home.f1Text">من بولونيا إلى نابولي، نحتفظ بأصالة كل قطعة وكل صلصة.</p>
+          </div>
+          <div class="fusion-card">
+            <div class="fusion-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M4 12h16M7 9v6M17 9v6" stroke-linecap="round"/></svg>
+            </div>
+            <h3 data-i18n="home.f2Title">American Heart</h3>
+            <p data-i18n="home.f2Text">من البرغر العريب إلى البيتزا الكرزية، نضيف لمسة حماسية.</p>
+          </div>
+          <div class="fusion-card">
+            <div class="fusion-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18M5 5l14 14M19 5L5 19"/></svg>
+            </div>
+            <h3 data-i18n="home.f3Title">The Fusion</h3>
+            <p data-i18n="home.f3Text">كل طبق في «وجد» هو اختراع حي يجمع بين القوتين قبل أن يصبحا طعمًا واحدًا.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الهوية والتغليف -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.identityEyebrow">الهوية</span>
+          <h2 class="section-title" data-i18n="home.identityTitle">هوية المطبخ والتغليف</h2>
+          <p class="section-sub" data-i18n="home.identitySub">نطرح هويتنا من الداخل: علب ومأكولات، أكياس طلب، أكواب ومجوهرات — كلها تحكي هوية واحدة.</p>
+        </div>
+        <div class="pkg-grid">
+          <div class="pkg-card">
+            <img src="images/packaging/box.svg" alt="">
+            <h3 data-i18n="pkg.box">علب الأطباق</h3>
+            <p data-i18n="pkg.boxDesc">علب مخصصة تحمل هوية المطبق في كل وجبة.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/bag.svg" alt="">
+            <h3 data-i18n="pkg.bag">أكياس الطلب</h3>
+            <p data-i18n="pkg.bagDesc">أكياس توصيل تحمل رسومة الطلب والهوية.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/cup.svg" alt="">
+            <h3 data-i18n="pkg.cup">الأكواب</h3>
+            <p data-i18n="pkg.cupDesc">أكواب إضافية تحمل رمز المطبق.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/sticker.svg" alt="">
+            <h3 data-i18n="pkg.sticker">الملصقات</h3>
+            <p data-i18n="pkg.stickerDesc">ملصقات تحمل رسومة المطبق اللطيفة.</p>
+          </div>
+          <div class="pkg-card">
+            <img src="images/packaging/closing.svg" alt="">
+            <h3 data-i18n="pkg.closing">ملصقات الإغلاق</h3>
+            <p data-i18n="pkg.closingDesc">دوائر إغلاق تحمي الطلب وترمز للابتكار.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- معرض صور -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow" data-i18n="home.galleryEyebrow">المعرض</span>
+          <h2 class="section-title" data-i18n="home.galleryTitle">معرض الصور</h2>
+          <p class="section-sub">لمحات من مطبقنا، عرباتنا، وأجواء المطبخ.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item"><img src="images/dishes/pizza.svg" alt=""><figcaption class="gallery-caption">بيتزا نابولية</figcaption></figure>
+          <figure class="gallery-item"><img src="images/dishes/burger.svg" alt=""><figcaption class="gallery-caption">برغر نابولي</figcaption></figure>
+          <figure class="gallery-item"><img src="images/dishes/pasta.svg" alt=""><figcaption class="gallery-caption">بولونيز إيطالي</figcaption></figure>
+          <figure class="gallery-item"><img src="images/dishes/arancini.svg" alt=""><figcaption class="gallery-caption">كرات الباستا</figcaption></figure>
+          <figure class="gallery-item"><img src="images/dishes/tiramisu.svg" alt=""><figcaption class="gallery-caption">تارتا الإيطالية</figcaption></figure>
+          <figure class="gallery-item"><img src="images/dishes/drink.svg" alt=""><figcaption class="gallery-caption">إسبريسو إيطالي</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- التواصل والزيارة -->
+    <section class="section">
+      <div class="container">
+        <div class="split-2">
+          <div>
+            <span class="section-eyebrow" data-i18n="home.visitEyebrow">زيارة المكان</span>
+            <h2 class="section-title" data-i18n="home.visitTitle">زورونا</h2>
+            <p class="section-sub" style="margin-bottom: 1.4rem;" data-i18n="home.visitSub">ضيوف «وجد» يجدون مكانًا مختلفًا عن المعتاد — مطبخ صغير، نكهات كبيرة.</p>
+            <p class="muted">معلومات العنوان والساعات ستحدد عند توفيرها.</p>
+            <a href="contact.html" class="btn" data-i18n="nav.contact" style="margin-top: 1rem;">تواصل معنا</a>
+          </div>
+          <div style="background: var(--cream-soft); border: 1px solid var(--border); border-radius: 28px; padding: 2rem;">
+            <img src="images/interior.svg" alt="" style="width: 100%; border-radius: 18px;">
+            <div class="cta-actions" style="margin-top: 1.4rem;">
+              <a href="#" class="btn btn-whatsapp btn-sm" data-wa-generic data-i18n="home.heroCtaOrder">اطلب عبر واتساب</a>
+              <a href="menu.html" class="btn btn-outline btn-sm" data-i18n="home.viewMenu">عرض المنيو كامل</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الدعوة للطلب -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2 data-i18n="home.ctaTitle">جاهز لبدء المذاق؟</h2>
+          <p data-i18n="home.ctaSub">اطلب طبقك المفضل عبر واتساب مباشرة، أو استكشف قائمة المختبرات في المنيو.</p>
+          <div class="cta-actions">
+            <a href="menu.html" class="btn btn-cream" data-i18n="home.heroCtaMenu">استكشف المنيو</a>
+            <a href="#" class="btn btn-whatsapp" data-wa-generic data-i18n="home.heroCtaOrder">اطلب عبر واتساب</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="siteFooter"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

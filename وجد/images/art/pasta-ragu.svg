@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="بكتاتيني بالراغو وكرات اللحم">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="196" rx="142" ry="104" fill="#FDF8EF"/><ellipse cx="240" cy="192" rx="122" ry="86" fill="#EFE4D2"/>
+<ellipse cx="240" cy="188" rx="108" ry="74" fill="#C9552C"/>
+<g fill="none" stroke="#EDC276" stroke-width="10" stroke-linecap="round">
+<path d="M148 172q36-40 72-6t74-8 40 24"/><path d="M146 200q36-32 72-2t74-8 42 24"/><path d="M164 220q34-26 68 0t72-6 36 18"/>
+</g>
+<g fill="#8B3A20"><circle cx="200" cy="166" r="20"/><circle cx="266" cy="180" r="22"/><circle cx="290" cy="220" r="17"/></g>
+<g fill="#A8563A" opacity=".7"><circle cx="194" cy="160" r="6"/><circle cx="260" cy="174" r="7"/><circle cx="286" cy="216" r="5"/></g>
+<g fill="#F7EBD0"><circle cx="176" cy="192" r="3"/><circle cx="230" cy="214" r="3"/><circle cx="306" cy="184" r="3"/></g>
+<g fill="#3F6B2E"><path d="M238 150q16-16 28 0-16 10-28 0z"/></g>
+</g>
+</svg>

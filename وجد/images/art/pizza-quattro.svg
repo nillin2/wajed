@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="بيتزا كويلو فورماغي بأربعة أجبان">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#5C0412" flood-opacity=".32"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<circle cx="240" cy="176" r="118" fill="#C7844C"/><circle cx="240" cy="176" r="106" fill="#E9B470"/>
+<circle cx="240" cy="176" r="92" fill="#F0E0BB"/>
+<g><path d="M172 124a52 52 0 0 1 62 0 52 52 0 0 1-62 0z" fill="#F6DC8C"/><path d="M246 122a52 52 0 0 1 62 0 52 52 0 0 1-62 0z" fill="#EDE6D2"/><path d="M174 190a52 52 0 0 1 62 0 52 52 0 0 1-62 0z" fill="#C9B9D8"/><path d="M248 190a52 52 0 0 1 62 0 52 52 0 0 1-62 0z" fill="#E8C46B"/></g>
+<g fill="#9A8B7A" opacity=".6"><circle cx="200" cy="140" r="4"/><circle cx="278" cy="136" r="4"/><circle cx="204" cy="206" r="4"/><circle cx="278" cy="206" r="4"/></g>
+<g fill="none" stroke="#C9973A" stroke-width="5" stroke-linecap="round" opacity=".8"><path d="M180 168q30 18 60 0t60 0"/><path d="M196 226q30-16 60 0"/></g>
+<g fill="#4C7536"><path d="M226 154q14-16 26 0-14 10-26 0z"/><path d="M286 164q14-16 26 0-14 10-26 0z"/><path d="M160 174q14-16 26 0-14 10-26 0z"/></g>
+</g>
+</svg>

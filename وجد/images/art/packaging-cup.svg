@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="كوب مشروبات مخصص للمطعم">
+<defs>
+<linearGradient id="bg" x2="0" y2="1"><stop stop-color="#F2DCE3"/><stop offset="1" stop-color="#F5EBDD"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="180" r="150" fill="#FFF8EE" opacity=".5"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="296" rx="96" ry="16" fill="#7A0618" opacity=".16"/>
+<path d="M164 106h152l-20 190q-56 14-112 0z" fill="#FBF4E9"/>
+<path d="M160 100h160l-6 26H166z" fill="#7A0618"/>
+<path d="M172 158h136l-6 72q-62 16-124 0z" fill="#7A0618"/>
+<circle cx="240" cy="188" r="22" fill="none" stroke="#F5EBDD" stroke-width="3"/>
+<path d="M240 172v10M233 177h14" stroke="#F5EBDD" stroke-width="3" stroke-linecap="round"/>
+<path d="M220 208q20 8 40 0" stroke="#D99AA8" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="240" cy="100" rx="80" ry="16" fill="#D99AA8"/>
+<ellipse cx="240" cy="98" rx="70" ry="11" fill="#F4E3E8"/>
+<path d="M272 88l16-58" stroke="#7A0618" stroke-width="9" stroke-linecap="round"/>
+</g>
+</svg>

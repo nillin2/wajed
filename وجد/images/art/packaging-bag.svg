@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="كيس طلبات مخصص للمطعم">
+<defs>
+<linearGradient id="bg" x2="0" y2="1"><stop stop-color="#F2DCE3"/><stop offset="1" stop-color="#F5EBDD"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="180" r="150" fill="#FFF8EE" opacity=".5"/>
+<g filter="url(#s)">
+<path d="M138 116q0-58 42-58t42 58" fill="none" stroke="#7A0618" stroke-width="12"/>
+<path d="M258 116q0-58 42-58t42 58" fill="none" stroke="#7A0618" stroke-width="12"/>
+<path d="M112 116h256l18 194q-146 26-292 0z" fill="#8A1230"/>
+<path d="M120 116h240l6 34H114z" fill="#A81A3C"/>
+<path d="M156 178h168l-10 106q-74 14-148 0z" fill="#FAF3E7"/>
+<circle cx="240" cy="216" r="26" fill="none" stroke="#7A0618" stroke-width="4"/>
+<path d="M240 198v12M232 204h16" stroke="#7A0618" stroke-width="4" stroke-linecap="round"/>
+<path d="M216 242q24 12 48 0" stroke="#D99AA8" stroke-width="6" fill="none" stroke-linecap="round"/>
+<rect x="196" y="260" width="88" height="6" rx="3" fill="#E7D3BB"/>
+</g>
+</svg>

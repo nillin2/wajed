@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="سوب اللحم الإيطالي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)" transform="rotate(-8 240 180)">
+<path d="M78 164q162-40 324 0l-10 32q-152 36-304 0z" fill="#D7A066"/>
+<path d="M84 160q156-34 312 0l-6 16q-150-32-300 0z" fill="#EDC48D"/>
+<path d="M88 186q152 34 304 0l-4 22q-148 34-296 0z" fill="#C1844B"/>
+<path d="M92 196q148 32 296 0v14q-148 32-296 0z" fill="#A62D21"/>
+<g fill="#7A3A22"><circle cx="140" cy="206" r="20"/><circle cx="200" cy="214" r="21"/><circle cx="262" cy="214" r="21"/><circle cx="322" cy="204" r="20"/></g>
+<g fill="#F1DEA6"><path d="M110 190q24-14 44 2-22 12-44-2z"/><path d="M180 198q26-14 48 2-24 12-48-2z"/><path d="M250 198q26-14 48 2-24 12-48-2z"/><path d="M310 190q24-14 44 2-22 12-44-2z"/></g>
+<g fill="#6E8A3E"><circle cx="166" cy="192" r="7"/><circle cx="230" cy="198" r="7"/><circle cx="294" cy="190" r="7"/></g>
+</g>
+<g fill="#D9A24E"><ellipse cx="120" cy="276" rx="22" ry="11"/><ellipse cx="162" cy="288" rx="22" ry="11"/><ellipse cx="340" cy="282" rx="22" ry="11"/></g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="بيتزا كابريتشا نابولية">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#5C0412" flood-opacity=".32"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<circle cx="240" cy="176" r="118" fill="#C7844C"/><circle cx="240" cy="176" r="106" fill="#E9B470"/>
+<circle cx="240" cy="176" r="92" fill="#BF3426"/><circle cx="240" cy="176" r="84" fill="#F2D884"/>
+<g fill="#C96B6B"><rect x="180" y="132" width="34" height="24" rx="5" transform="rotate(-12 180 132)"/><rect x="252" y="190" width="36" height="24" rx="5" transform="rotate(14 252 190)"/><rect x="220" y="222" width="32" height="22" rx="5" transform="rotate(-8 220 222)"/></g>
+<g fill="#6C7C3A"><path d="M262 126q16-14 24 4-14 10-24-4z"/><path d="M172 204q16-14 24 4-14 10-24-4z"/></g>
+<g fill="#3A2A22"><circle cx="208" cy="172" r="9"/><circle cx="286" cy="156" r="9"/><circle cx="238" cy="216" r="8"/></g>
+<g fill="#D9B58A"><ellipse cx="226" cy="150" rx="12" ry="8" transform="rotate(20 226 150)"/><ellipse cx="270" cy="216" rx="12" ry="8" transform="rotate(-18 270 216)"/></g>
+<g fill="#F6E7B8"><circle cx="196" cy="216" r="13"/><circle cx="294" cy="186" r="12"/></g>
+<g fill="#3F6B2E"><path d="M236 138q14-14 26 0-14 8-26 0z"/></g>
+</g>
+</svg>

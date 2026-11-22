@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="سيميفردو بالشوكولاتة">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<linearGradient id="ch" x2="0" y2="1"><stop stop-color="#6B3E28"/><stop offset="1" stop-color="#3A2016"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="292" rx="132" ry="18" fill="#7A0618" opacity=".16"/>
+<ellipse cx="240" cy="280" rx="120" ry="26" fill="#FDF8EF"/>
+<path d="M152 258l30-124q58-24 116 0l30 124q-88 30-176 0z" fill="url(#ch)"/>
+<path d="M160 226q80 24 160 0l6 24q-86 28-172 0z" fill="#E9D3A8"/>
+<path d="M166 190q74 22 148 0l6 24q-80 26-160 0z" fill="#4E2C1E"/>
+<path d="M172 158q68 20 136 0l8 22q-76 24-152 0z" fill="#E9D3A8"/>
+<path d="M182 134q58 18 116 0l6 20q-64 20-128 0z" fill="#5A3322"/>
+<g fill="#B98A56" opacity=".9"><rect x="200" y="206" width="26" height="5" rx="2" transform="rotate(14 200 206)"/><rect x="254" y="214" width="26" height="5" rx="2" transform="rotate(-10 254 214)"/><rect x="224" y="174" width="24" height="5" rx="2" transform="rotate(8 224 174)"/></g>
+<g fill="#FFF7E6"><circle cx="206" cy="148" r="3"/><circle cx="272" cy="166" r="3"/><circle cx="180" cy="244" r="3"/></g>
+<g fill="#7A0618"><circle cx="342" cy="252" r="8"/><circle cx="360" cy="270" r="6"/></g>
+</g>
+</svg>

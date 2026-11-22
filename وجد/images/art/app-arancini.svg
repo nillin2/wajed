@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="كرات الباستا الإيطالية المقلية">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<ellipse cx="240" cy="286" rx="140" ry="16" fill="#7A0618" opacity=".14"/>
+<g filter="url(#s)">
+<g fill="#D79A45"><circle cx="180" cy="204" r="46"/><circle cx="272" cy="188" r="46"/><circle cx="330" cy="240" r="40"/></g>
+<g fill="#E8B45C"><circle cx="168" cy="190" r="7"/><circle cx="196" cy="212" r="6"/><circle cx="160" cy="218" r="5"/><circle cx="258" cy="174" r="7"/><circle cx="286" cy="196" r="6"/><circle cx="270" cy="210" r="5"/><circle cx="320" cy="230" r="6"/><circle cx="342" cy="248" r="5"/></g>
+<g fill="#B9742E" opacity=".6"><circle cx="188" cy="184" r="4"/><circle cx="172" cy="200" r="4"/><circle cx="280" cy="178" r="4"/><circle cx="330" cy="232" r="4"/></g>
+<ellipse cx="126" cy="268" rx="54" ry="26" fill="#FDF5E8"/><ellipse cx="126" cy="266" rx="44" ry="19" fill="#B53022"/>
+<g fill="#3F6B2E"><path d="M206 142q14-16 26 0-14 10-26 0z"/><path d="M300 154q14-16 26 0-14 10-26 0z"/></g>
+</g>
+</svg>

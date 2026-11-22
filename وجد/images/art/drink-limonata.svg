@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="ليموناتا إيطالية">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="304" rx="86" ry="16" fill="#7A0618" opacity=".16"/>
+<path d="M188 112h104l-10 186q-42 12-84 0z" fill="#F7EBD2" opacity=".85"/>
+<path d="M194 140h92l-8 154q-38 10-76 0z" fill="#E9C55E"/>
+<ellipse cx="240" cy="112" rx="52" ry="14" fill="#F6E9CB"/>
+<ellipse cx="240" cy="112" rx="44" ry="10" fill="#F2D87A"/>
+<path d="M240 116l-6 168" stroke="#E0C77B" stroke-width="6" stroke-linecap="round"/>
+<g fill="#FFF3C4" opacity=".85"><circle cx="212" cy="168" r="4"/><circle cx="266" cy="190" r="4"/><circle cx="220" cy="222" r="4"/><circle cx="262" cy="252" r="4"/><circle cx="234" cy="276" r="3"/></g>
+<g><circle cx="204" cy="186" r="22" fill="#F6DF7A"/><circle cx="204" cy="186" r="16" fill="#FFF0A8"/><path d="M204 170v32M188 186h32M193 175l22 22M215 175l-22 22" stroke="#E6C34E" stroke-width="2"/></g>
+<g fill="none" stroke="#4F7035" stroke-width="5" stroke-linecap="round"><path d="M282 106q22-30 16-60"/><path d="M292 84q14-10 22-8"/><path d="M288 64q-14-10-20-8"/></g>
+</g>
+</svg>

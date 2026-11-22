@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="إسبريسو إيطالي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="276" rx="118" ry="24" fill="#FDF8EF"/><ellipse cx="240" cy="272" rx="104" ry="18" fill="#EADCC8"/>
+<path d="M178 154h124l-12 100q-50 18-100 0z" fill="#FDFBF6"/>
+<path d="M302 170q38 4 34 36-4 28-38 26" fill="none" stroke="#FDFBF6" stroke-width="14"/>
+<ellipse cx="240" cy="154" rx="62" ry="18" fill="#FDFBF6"/>
+<ellipse cx="240" cy="154" rx="52" ry="13" fill="#6E4327"/>
+<ellipse cx="240" cy="152" rx="44" ry="9" fill="#C79655" opacity=".85"/>
+<g fill="#3A2418"><ellipse cx="132" cy="264" rx="13" ry="8" transform="rotate(20 132 264)"/><ellipse cx="156" cy="282" rx="13" ry="8" transform="rotate(-14 156 282)"/><ellipse cx="344" cy="272" rx="13" ry="8" transform="rotate(12 344 272)"/></g>
+<g fill="#7A0618" opacity=".4"><path d="M336 124q10-20 22-22-4 20-22 22z"/></g>
+</g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="برغر توريتو الإيطالي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<linearGradient id="bn" x2="0" y2="1"><stop stop-color="#EFC394"/><stop offset="1" stop-color="#B6723E"/></linearGradient>
+<linearGradient id="sa" x2="0" y2="1"><stop stop-color="#D64530"/><stop offset="1" stop-color="#7A0618"/></linearGradient>
+<linearGradient id="ch" x2="0" y2="1"><stop stop-color="#F9DE86"/><stop offset="1" stop-color="#E2A12F"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<ellipse cx="240" cy="284" rx="130" ry="18" fill="#7A0618" opacity=".14"/>
+<g filter="url(#s)">
+<path d="M112 190a128 62 0 0 0 256 0z" fill="#A96032"/>
+<path d="M112 184a128 70 0 0 1 256 0q-128-38-256 0z" fill="url(#bn)"/>
+<g fill="#FBEBCD"><ellipse cx="166" cy="156" rx="6" ry="3" transform="rotate(-18 166 156)"/><ellipse cx="208" cy="142" rx="6" ry="3" transform="rotate(14 208 142)"/><ellipse cx="258" cy="142" rx="6" ry="3" transform="rotate(-12 258 142)"/><ellipse cx="302" cy="158" rx="6" ry="3" transform="rotate(20 302 158)"/><ellipse cx="238" cy="162" rx="6" ry="3"/></g>
+<path d="M114 180q34-26 64-6t66-8 66 8 66-4v18q-130 32-262 0z" fill="#5C7A36"/>
+<path d="M116 194l32 30 34-22 34 28 36-24 34 26 32-22 26 16v20q-132 30-264 0z" fill="url(#ch)"/>
+<rect x="114" y="214" width="252" height="36" rx="15" fill="#6B3522"/>
+<path d="M116 240q126 26 250 0v12q-126 24-250 0z" fill="url(#sa)"/>
+<path d="M112 252a128 56 0 0 0 256 0z" fill="url(#bn)"/>
+</g>
+<g fill="#3F6B2E"><path d="M92 268q8-22 22-26-2 20-22 26z"/><path d="M364 262q-4-22 12-30 6 20-12 30z"/></g>
+<g fill="#7A0618" opacity=".5"><circle cx="84" cy="112" r="4"/><circle cx="400" cy="128" r="3"/><circle cx="410" cy="294" r="4"/></g>
+</svg>

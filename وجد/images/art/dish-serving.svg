@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="تقديم الأطباق على الطاولة">
+<defs>
+<radialGradient id="bg" cx="50%" cy="40%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#DCC3A9"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#5C0412" flood-opacity=".35"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="200" rx="150" ry="112" fill="#FBF3E7"/>
+<ellipse cx="240" cy="196" rx="132" ry="96" fill="#F0E3D0"/>
+<circle cx="240" cy="190" r="88" fill="#C7844C"/><circle cx="240" cy="190" r="76" fill="#E9B470"/><circle cx="240" cy="190" r="64" fill="#BF3426"/><circle cx="240" cy="190" r="56" fill="#F6DC8C"/>
+<g fill="#FFF1CC"><circle cx="212" cy="170" r="17"/><circle cx="258" cy="164" r="15"/><circle cx="270" cy="210" r="18"/><circle cx="206" cy="214" r="15"/></g>
+<g fill="#7A0618"><circle cx="228" cy="186" r="9"/><circle cx="264" cy="198" r="9"/></g>
+<g fill="#3F6B2E"><path d="M202 184q14-14 26 0-14 10-26 0z"/><path d="M254 176q14-14 26 0-14 10-26 0z"/></g>
+</g>
+<g fill="#E5B98C"><path d="M392 132q42 22 60 70-32-2-58-32z"/><path d="M378 156q30 26 44 62-30-8-46-34z"/></g>
+<g fill="#7A0618" opacity=".5"><circle cx="84" cy="112" r="4"/><circle cx="420" cy="278" r="4"/></g>
+</svg>

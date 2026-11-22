@@ -125,17 +125,18 @@ function buildFooter() {
 }
 
 function dishImageFor(dish) {
+  // كل طبق له صورته المستقلة في بيانات المنيو (config.js)
+  if (dish.image) return dish.image;
   const map = {
-    burgers: 'burger.svg',
-    pizza: 'pizza.svg',
-    pasta: 'pasta.svg',
-    appetizers: 'arancini.svg',
-    signatures: 'meatball-sub.svg',
-    desserts: 'tiramisu.svg',
-    drinks: 'drink.svg',
+    burgers: 'images/art/burger-torino.jpg',
+    pizza: 'images/art/pizza-margherita.jpg',
+    pasta: 'images/art/pasta-bolognese.jpg',
+    appetizers: 'images/art/app-arancini.jpg',
+    signatures: 'images/art/sig-meatball-sub.jpg',
+    desserts: 'images/art/dessert-tiramisu.jpg',
+    drinks: 'images/art/drink-espresso.jpg',
   };
-  if (dish.image) return 'images/dishes/' + dish.image;
-  return 'images/dishes/' + (map[dish.category] || 'burger.svg');
+  return map[dish.category] || 'images/art/burger-torino.jpg';
 }
 
 function dishBadgeHTML(dish) {
@@ -148,10 +149,11 @@ function dishBadgeHTML(dish) {
 function dishCardHTML(dish) {
   const price = `<div class="price">${dish.price}<small>${currentLang === 'ar' ? 'ريال سعودي' : 'SAR'}</small></div>`;
   const orderBtn = `<a class="btn btn-whatsapp btn-sm" href="${buildWhatsAppLink(dish)}" target="_blank" rel="noopener" data-wa-dish="${dish.id}">${WAPP_ICON}<span>${t('menu.orderThisDish')}</span></a>`;
+  const alt = currentLang === 'ar' ? `${dish.nameAr} — طبق من مطبخ وجد` : `${dish.nameEn} — a Wajd kitchen dish`;
   return `
 <article class="dish-card">
   <div class="dish-card-media">
-    <img src="${dishImageFor(dish)}" alt="${dish.nameAr}" loading="lazy">
+    <img src="${dishImageFor(dish)}" alt="${alt}" loading="lazy" decoding="async" width="900" height="608">
     ${dishBadgeHTML(dish)}
   </div>
   <div class="dish-card-body">

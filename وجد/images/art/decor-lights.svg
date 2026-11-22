@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="تفاصيل الديكور والإضاءة الدافئة">
+<defs>
+<linearGradient id="wall" x2="0" y2="1"><stop stop-color="#7A0618"/><stop offset="1" stop-color="#3A0209"/></linearGradient>
+<radialGradient id="g"><stop stop-color="#F8D49A" stop-opacity=".9"/><stop offset="1" stop-color="#F8D49A" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="480" height="360" fill="url(#wall)"/>
+<g stroke="#D99AA8" stroke-width="2" opacity=".35" fill="none"><circle cx="240" cy="180" r="120"/><circle cx="240" cy="180" r="150"/><circle cx="240" cy="180" r="180"/></g>
+<g><path d="M120 0v96M360 0v64M60 0v50" stroke="#F5EBDD" stroke-width="3" opacity=".6"/>
+<g fill="#D99AA8"><path d="M100 96h40l-10 30h-20z"/><path d="M340 64h40l-10 30h-20z"/><path d="M40 50h40l-10 28h-20z"/></g>
+<circle cx="120" cy="150" r="66" fill="url(#g)"/><circle cx="360" cy="118" r="56" fill="url(#g)"/><circle cx="60" cy="102" r="44" fill="url(#g)"/></g>
+<g fill="#F5EBDD" opacity=".18"><circle cx="240" cy="250" r="5"/><circle cx="290" cy="220" r="3"/><circle cx="190" cy="290" r="4"/><circle cx="430" cy="300" r="4"/><circle cx="40" cy="220" r="3"/></g>
+<g fill="#D99AA8" opacity=".5"><path d="M240 320q20-30 40 0-20-10-40 0z"/><path d="M300 330q16-24 32 0-16-8-32 0z"/></g>
+</svg>

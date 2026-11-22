@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="كنافولي الإيطالي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<g transform="translate(0 0)">
+<g transform="rotate(-18 170 180)"><rect x="104" y="158" width="132" height="42" rx="20" fill="#D8A05A"/><rect x="104" y="158" width="132" height="42" rx="20" fill="none" stroke="#B97432" stroke-width="3"/><ellipse cx="236" cy="179" rx="16" ry="21" fill="#FBF3E2"/><ellipse cx="104" cy="179" rx="14" ry="20" fill="#FBF3E2"/><g fill="#7A0618"><circle cx="230" cy="172" r="3"/><circle cx="240" cy="184" r="3"/><circle cx="232" cy="190" r="2"/></g><g fill="#6C8A3E"><circle cx="228" cy="182" r="3"/><circle cx="238" cy="170" r="2"/></g></g>
+<g transform="rotate(12 300 210)"><rect x="232" y="190" width="132" height="42" rx="20" fill="#D8A05A"/><rect x="232" y="190" width="132" height="42" rx="20" fill="none" stroke="#B97432" stroke-width="3"/><ellipse cx="364" cy="211" rx="16" ry="21" fill="#FBF3E2"/><ellipse cx="232" cy="211" rx="14" ry="20" fill="#FBF3E2"/><g fill="#7A0618"><circle cx="358" cy="204" r="3"/><circle cx="368" cy="216" r="3"/></g><g fill="#6C8A3E"><circle cx="360" cy="214" r="3"/><circle cx="370" cy="202" r="2"/></g></g>
+<g transform="rotate(-6 240 274)"><rect x="176" y="254" width="128" height="40" rx="20" fill="#D8A05A"/><rect x="176" y="254" width="128" height="40" rx="20" fill="none" stroke="#B97432" stroke-width="3"/><ellipse cx="304" cy="274" rx="15" ry="20" fill="#FBF3E2"/><ellipse cx="176" cy="274" rx="13" ry="19" fill="#FBF3E2"/><g fill="#7A0618"><circle cx="298" cy="268" r="3"/><circle cx="308" cy="280" r="3"/></g></g>
+</g>
+<g fill="#FFF8EC" opacity=".8"><circle cx="150" cy="126" r="3"/><circle cx="392" cy="150" r="3"/><circle cx="330" cy="106" r="2"/></g>
+</g>
+</svg>

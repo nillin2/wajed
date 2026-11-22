@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="علبة طعام مخصصة للمطعم">
+<defs>
+<linearGradient id="bg" x2="0" y2="1"><stop stop-color="#F2DCE3"/><stop offset="1" stop-color="#F5EBDD"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="180" r="150" fill="#FFF8EE" opacity=".5"/>
+<g filter="url(#s)">
+<path d="M88 110h304l-18 186q-134 26-268 0z" fill="#7A0618"/>
+<path d="M96 104h288l12 26H84z" fill="#9A1030"/>
+<path d="M84 130h312l-10 22H94z" fill="#5C0412"/>
+<path d="M128 168h224l-12 116q-100 18-200 0z" fill="#FAF3E7"/>
+<circle cx="240" cy="212" r="30" fill="none" stroke="#7A0618" stroke-width="4"/>
+<path d="M240 190v14M232 196h16" stroke="#7A0618" stroke-width="4" stroke-linecap="round"/>
+<path d="M212 236q28 14 56 0" stroke="#D99AA8" stroke-width="6" fill="none" stroke-linecap="round"/>
+<rect x="186" y="256" width="108" height="6" rx="3" fill="#E7D3BB"/>
+</g>
+<g fill="#D99AA8" opacity=".7"><circle cx="70" cy="84" r="5"/><circle cx="414" cy="72" r="4"/><circle cx="62" cy="294" r="4"/></g>
+</svg>

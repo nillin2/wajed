@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="برغر البيتزا نابولي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<linearGradient id="bn" x2="0" y2="1"><stop stop-color="#EFC394"/><stop offset="1" stop-color="#B6723E"/></linearGradient>
+<linearGradient id="sa" x2="0" y2="1"><stop stop-color="#D64530"/><stop offset="1" stop-color="#7A0618"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<ellipse cx="240" cy="284" rx="130" ry="18" fill="#7A0618" opacity=".14"/>
+<g filter="url(#s)">
+<path d="M112 190a128 62 0 0 0 256 0z" fill="#A96032"/>
+<path d="M112 184a128 70 0 0 1 256 0q-128-38-256 0z" fill="url(#bn)"/>
+<g fill="#FBEBCD"><ellipse cx="164" cy="156" rx="6" ry="3"/><ellipse cx="212" cy="142" rx="6" ry="3"/><ellipse cx="262" cy="144" rx="6" ry="3"/><ellipse cx="306" cy="158" rx="6" ry="3"/></g>
+<path d="M114 180q34-24 64-4t66-8 66 8 66-4v18q-130 32-262 0z" fill="#E9E0B8"/>
+<path d="M116 194l32 28 34-20 34 26 36-22 34 24 32-20 26 14v20q-132 30-264 0z" fill="#F3EBCF"/>
+<rect x="114" y="212" width="252" height="38" rx="15" fill="#6B3522"/>
+<path d="M116 238q126 26 250 0v14q-126 24-250 0z" fill="url(#sa)"/>
+<g fill="#B83226"><circle cx="158" cy="244" r="11"/><circle cx="208" cy="250" r="11"/><circle cx="260" cy="244" r="11"/><circle cx="314" cy="250" r="11"/></g>
+<g fill="none" stroke="#D8A34A" stroke-width="7" stroke-linecap="round"><path d="M134 202q12-16 26-2"/><path d="M300 196q14-16 28 0"/></g>
+<path d="M112 252a128 56 0 0 0 256 0z" fill="url(#bn)"/>
+</g>
+</svg>

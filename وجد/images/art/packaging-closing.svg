@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="ملصقات إغلاق الطلب">
+<defs>
+<linearGradient id="bg" x2="0" y2="1"><stop stop-color="#F2DCE3"/><stop offset="1" stop-color="#F5EBDD"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="180" r="150" fill="#FFF8EE" opacity=".5"/>
+<g filter="url(#s)">
+<path d="M96 132h288l-16 170q-128 22-256 0z" fill="#7A0618"/>
+<path d="M104 124h272l8 24H96z" fill="#A81A3C"/>
+<g transform="rotate(-10 180 208)"><circle cx="180" cy="208" r="46" fill="#D99AA8"/><circle cx="180" cy="208" r="36" fill="#FAF3E7"/><path d="M180 188v12M173 194h14" stroke="#7A0618" stroke-width="3" stroke-linecap="round"/></g>
+<g transform="rotate(12 304 228)"><circle cx="304" cy="228" r="46" fill="#F5EBDD"/><circle cx="304" cy="228" r="36" fill="#FAF3E7"/><path d="M304 208v12M297 214h14" stroke="#7A0618" stroke-width="3" stroke-linecap="round"/></g>
+<g transform="rotate(-4 244 106)"><circle cx="244" cy="106" r="36" fill="#D99AA8" opacity=".9"/><circle cx="244" cy="106" r="27" fill="#FAF3E7"/></g>
+</g>
+</svg>

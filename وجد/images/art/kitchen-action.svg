@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="تحضير المعكرونة في المطبخ">
+<defs>
+<radialGradient id="bg" cx="50%" cy="40%"><stop stop-color="#E8D3C4"/><stop offset="1" stop-color="#8A6B4E"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#2A1005" flood-opacity=".4"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<g fill="#F5EBDD" opacity=".18"><circle cx="120" cy="90" r="60"/><circle cx="380" cy="120" r="70"/><circle cx="240" cy="40" r="50"/></g>
+<g filter="url(#s)">
+<path d="M92 196h264l-22 66q-110 26-220 0z" fill="#3A3A3A"/>
+<path d="M106 206h236l-6 24q-112 22-224 0z" fill="#8A6B4E"/>
+<path d="M356 210h84q16 4 12 20-6 18-30 18h-64z" fill="#4A4A4A"/>
+<g fill="none" stroke="#F0CB78" stroke-width="9" stroke-linecap="round"><path d="M136 214q34-26 68 0t68 0 56 10"/><path d="M146 230q32-22 64 0t64 0 52 10"/></g>
+<g fill="#B53324"><circle cx="178" cy="218" r="8"/><circle cx="256" cy="226" r="8"/><circle cx="306" cy="214" r="7"/></g>
+<g fill="#3F6B2E"><path d="M226 210q12-14 22 0-12 8-22 0z"/></g>
+<path d="M300 120l-54 84" stroke="#C8A47A" stroke-width="12" stroke-linecap="round"/>
+<path d="M246 204l-24-14q-8 10 4 18z" fill="#E8D9B8"/>
+</g>
+<g fill="none" stroke="#FBF3E7" stroke-width="5" stroke-linecap="round" opacity=".65"><path d="M160 178q-14-24 4-44"/><path d="M216 170q-14-24 4-44"/><path d="M272 178q-14-24 4-44"/></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="تارتا الإيطالية">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="286" rx="96" ry="18" fill="#7A0618" opacity=".16"/>
+<path d="M158 138h164l-18 148q-64 22-128 0z" fill="#FDF7EB"/>
+<path d="M164 148h152l-4 32q-72 20-144 0z" fill="#E8D9C3"/>
+<path d="M168 184h144l-4 30q-68 20-136 0z" fill="#C49A70"/>
+<path d="M172 218h136l-4 30q-64 18-128 0z" fill="#E8D9C3"/>
+<path d="M176 252h128l-4 26q-60 16-120 0z" fill="#C49A70"/>
+<ellipse cx="240" cy="138" rx="82" ry="20" fill="#F3E3CB"/>
+<ellipse cx="240" cy="138" rx="74" ry="16" fill="#6E4B34"/>
+<g fill="#4A2E1F" opacity=".7"><circle cx="206" cy="136" r="3"/><circle cx="266" cy="140" r="3"/><circle cx="232" cy="132" r="2"/><circle cx="284" cy="134" r="2"/></g>
+<path d="M330 118q28 4 28 50-14 22-34 8 14-18 6-58z" fill="#C8C2B6"/>
+</g>
+<g fill="#3F2A1C"><ellipse cx="120" cy="252" rx="12" ry="7" transform="rotate(24 120 252)"/><ellipse cx="354" cy="274" rx="12" ry="7" transform="rotate(-18 354 274)"/></g>
+</svg>

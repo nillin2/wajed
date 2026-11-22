@@ -446,6 +446,112 @@ a { color: var(--burgundy); }
   .header-actions .btn-whatsapp .btn-label { display: none; }
 }
 
+/* ---------- البطل المصور ---------- */
+.hero-image { position: relative; display: flex; align-items: center; min-height: 540px; padding: 5rem 0; overflow: hidden; background: var(--burgundy); }
+.hero-media { position: absolute; inset: 0; z-index: 0; }
+.hero-media img { width: 100%; height: 100%; object-fit: cover; object-position: left center; }
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(270deg, rgba(92, 4, 18, .96) 0%, rgba(92, 4, 18, .82) 34%, rgba(122, 6, 24, .35) 62%, rgba(245, 235, 221, .05) 100%);
+}
+.hero-image .container { position: relative; z-index: 1; }
+.hero-image .hero-inner { display: block; max-width: 720px; margin-inline-end: auto; margin-inline-start: 0; }
+.hero-image .hero-badge { background: var(--cream); color: var(--burgundy); }
+.hero-image .hero-title, .hero-image .hero-sub, .hero-image .hero-note { color: var(--cream); }
+.hero-image .hero-title .accent { color: var(--pink); }
+.hero-image .hero-sub { color: rgba(245, 235, 221, .92); }
+.hero-image .hero-note { color: rgba(245, 235, 221, .75); }
+.hero-image .btn-outline { color: var(--cream); border-color: var(--cream); }
+.hero-image .btn-outline:hover { background: var(--cream); color: var(--burgundy); }
+
+/* ---------- صور الأقسام ---------- */
+.story-media { margin: 0; border-radius: 28px; overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-sm); background: var(--cream-soft); }
+.story-media img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16 / 9; }
+.pkg-card img { width: 100%; height: auto; }
+
+/* ---------- مساحة شعار التغليف ---------- */
+.pkg-media { position: relative; width: 100%; max-width: 190px; margin: 0 auto 1rem; }
+.pkg-media img { margin: 0; }
+.pkg-brand {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-ar);
+  font-size: .68rem;
+  font-weight: 700;
+  color: var(--burgundy);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* ---------- قسم بيانات الطالبة ---------- */
+.student-section { padding: 0 0 5rem; background: var(--cream); }
+.student-card {
+  position: relative;
+  overflow: hidden;
+  background: var(--cream-soft);
+  border: 1px solid rgba(122, 6, 24, .28);
+  border-radius: 28px;
+  padding: 2.6rem 2.4rem 2.4rem;
+  box-shadow: var(--shadow-sm);
+  text-align: right;
+}
+.student-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 7px;
+  background: linear-gradient(90deg, var(--burgundy), var(--pink), var(--burgundy));
+}
+.student-head { text-align: center; margin-bottom: 2rem; }
+.student-eyebrow {
+  display: inline-block;
+  font-family: var(--font-ar);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: var(--burgundy);
+  background: rgba(122, 6, 24, .08);
+  border: 1px solid rgba(122, 6, 24, .2);
+  padding: .3rem 1rem;
+  border-radius: 999px;
+  margin-bottom: .7rem;
+}
+.student-title { font-size: clamp(1.5rem, 3vw, 2rem); color: var(--burgundy); margin: 0; }
+.student-rule { display: block; width: 72px; height: 3px; border-radius: 3px; background: var(--pink); margin: 1rem auto 0; }
+.student-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 1.4rem; }
+.student-row {
+  display: flex;
+  align-items: baseline;
+  gap: .7rem;
+  flex-wrap: wrap;
+  background: #FFFAF2;
+  border: 1px solid rgba(122, 6, 24, .16);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.2rem;
+}
+.student-label { color: var(--burgundy); font-weight: 700; font-size: .95rem; white-space: nowrap; }
+.student-value { color: var(--ink); font-weight: 600; font-size: 1rem; line-height: 1.9; }
+html[lang="en"] .student-card, html[lang="en"] .student-label, html[lang="en"] .student-value, html[lang="en"] .student-title, html[lang="en"] .student-eyebrow { font-family: var(--font-ar); }
+
+@media (max-width: 900px) {
+  .hero-image { min-height: 500px; padding: 3.5rem 0; }
+  .hero-image .hero-overlay { background: linear-gradient(270deg, rgba(92, 4, 18, .95) 0%, rgba(92, 4, 18, .8) 55%, rgba(92, 4, 18, .35) 100%); }
+  .hero-image .hero-inner { max-width: 100%; }
+}
+@media (max-width: 640px) {
+  .hero-image { min-height: 560px; text-align: center; }
+  .hero-image .hero-cta-row { justify-content: center; }
+  .hero-image .hero-sub { margin-inline: auto; }
+  .hero-image .hero-overlay { background: rgba(92, 4, 18, .78); }
+  .student-section { padding-bottom: 3.5rem; }
+  .student-card { padding: 2rem 1.2rem 1.6rem; border-radius: 22px; }
+  .student-grid { grid-template-columns: 1fr; gap: .8rem; }
+  .student-row { padding: .85rem 1rem; }
+}
+
 /* ---------- تحسينات ---------- */
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }

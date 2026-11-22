@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="بولونيز باللحم الإيطالي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="196" rx="142" ry="104" fill="#FDF8EF"/><ellipse cx="240" cy="192" rx="122" ry="86" fill="#EFE4D2"/>
+<ellipse cx="240" cy="188" rx="108" ry="74" fill="#E8C874"/>
+<g fill="none" stroke="#F4D98C" stroke-width="9" stroke-linecap="round">
+<path d="M150 180q34-40 70-8t72-8 44 22"/><path d="M148 204q36-34 72-4t72-6 46 20"/>
+<path d="M160 156q32-30 64-4t70-6 40 18"/><path d="M170 218q34-28 66-2t70-4 38 16"/>
+</g>
+<g fill="#A83424"><path d="M180 164q26-18 48 4-24 20-48-4z"/><path d="M246 178q28-18 52 4-26 20-52-4z"/><path d="M206 208q26-16 48 4-24 18-48-4z"/><path d="M272 216q20-12 38 4-20 14-38-4z"/></g>
+<g fill="#7A0618" opacity=".6"><circle cx="214" cy="178" r="4"/><circle cx="282" cy="196" r="4"/><circle cx="180" cy="206" r="3"/></g>
+<g fill="#FFF7E6"><circle cx="170" cy="190" r="3"/><circle cx="228" cy="158" r="3"/><circle cx="300" cy="174" r="3"/><circle cx="250" cy="226" r="3"/></g>
+<g fill="#3F6B2E"><path d="M244 148q16-16 28 0-16 10-28 0z"/><path d="M298 206q14-14 26 0-14 10-26 0z"/></g>
+</g>
+</svg>

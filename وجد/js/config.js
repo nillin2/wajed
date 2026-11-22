@@ -43,6 +43,7 @@ const DISHES = [
   // البرغر
   {
     id: 'burger-torino',
+    image: 'images/art/burger-torino.jpg',
     category: 'burgers',
     nameAr: 'برغر توريتو إيطالي',
     nameEn: 'Italian Torino Burger',
@@ -54,6 +55,7 @@ const DISHES = [
   },
   {
     id: 'burger-pizza',
+    image: 'images/art/burger-pizza.jpg',
     category: 'burgers',
     nameAr: 'برغر البيتزا نابولي',
     nameEn: 'Naples Pizza Burger',
@@ -65,6 +67,7 @@ const DISHES = [
   },
   {
     id: 'burger-truffle',
+    image: 'images/art/burger-truffle.jpg',
     category: 'burgers',
     nameAr: 'برغر بالترويلي إيطالي',
     nameEn: 'Italian Truffle Burger',
@@ -77,6 +80,7 @@ const DISHES = [
   // البيتزا
   {
     id: 'pizza-margherita',
+    image: 'images/art/pizza-margherita.jpg',
     category: 'pizza',
     nameAr: 'بيتزا مارغريتا نابولية',
     nameEn: 'Naples Margherita Pizza',
@@ -88,6 +92,7 @@ const DISHES = [
   },
   {
     id: 'pizza-capricciosa',
+    image: 'images/art/pizza-capricciosa.jpg',
     category: 'pizza',
     nameAr: 'بيتزا كابريتشا نابولية',
     nameEn: 'Naples Capricciosa Pizza',
@@ -98,6 +103,7 @@ const DISHES = [
   },
   {
     id: 'pizza-quattro',
+    image: 'images/art/pizza-quattro.jpg',
     category: 'pizza',
     nameAr: 'بيتزا كويلو فورماغي',
     nameEn: 'Quattro Formaggi Pizza',
@@ -109,6 +115,7 @@ const DISHES = [
   // الباستا والمعكرونة
   {
     id: 'pasta-bolognese',
+    image: 'images/art/pasta-bolognese.jpg',
     category: 'pasta',
     nameAr: 'بولونيز باللحم الإيطالي',
     nameEn: 'Italian Bolognese Pasta',
@@ -119,6 +126,7 @@ const DISHES = [
   },
   {
     id: 'pasta-ragu',
+    image: 'images/art/pasta-ragu.jpg',
     category: 'pasta',
     nameAr: 'راغو أومليتانا',
     nameEn: 'Bucatini all\'Omuletto',
@@ -128,6 +136,7 @@ const DISHES = [
   },
   {
     id: 'pasta-arrabbiata',
+    image: 'images/art/pasta-arrabbiata.jpg',
     category: 'pasta',
     nameAr: 'باستا بالصلصة الحارة والكباب',
     nameEn: 'Spicy Pasta & Italian Meatballs',
@@ -139,6 +148,7 @@ const DISHES = [
   // المقبلات والأطباق الجانبية
   {
     id: 'app-arancini',
+    image: 'images/art/app-arancini.jpg',
     category: 'appetizers',
     nameAr: 'كرات الباستا الإيطالية',
     nameEn: 'Italian Arancini',
@@ -149,6 +159,7 @@ const DISHES = [
   },
   {
     id: 'app-bruschetta',
+    image: 'images/art/app-bruschetta.jpg',
     category: 'appetizers',
     nameAr: 'فطائر الباستا',
     nameEn: 'Italian Bruschetta',
@@ -160,6 +171,7 @@ const DISHES = [
   // الأطباق المميزة
   {
     id: 'sig-meatball-sub',
+    image: 'images/art/sig-meatball-sub.jpg',
     category: 'signatures',
     nameAr: 'سوب اللحم الإيطالي',
     nameEn: 'Italian Meatball Sub',
@@ -173,6 +185,7 @@ const DISHES = [
   // الحلويات
   {
     id: 'dessert-tiramisu',
+    image: 'images/art/dessert-tiramisu.jpg',
     category: 'desserts',
     nameAr: 'تارتا الإيطالية',
     nameEn: 'Italian Tiramisu',
@@ -182,6 +195,7 @@ const DISHES = [
   },
   {
     id: 'dessert-cannoli',
+    image: 'images/art/dessert-cannoli.jpg',
     category: 'desserts',
     nameAr: 'كنافولي الإيطالي',
     nameEn: 'Italian Cannoli',
@@ -192,6 +206,7 @@ const DISHES = [
   },
   {
     id: 'dessert-semifreddo',
+    image: 'images/art/dessert-semifreddo.jpg',
     category: 'desserts',
     nameAr: 'سيميفردو بالشوكولاتة',
     nameEn: 'Chocolate Semifreddo',
@@ -203,6 +218,7 @@ const DISHES = [
   // المشروبات
   {
     id: 'drink-espresso',
+    image: 'images/art/drink-espresso.jpg',
     category: 'drinks',
     nameAr: 'إسبريسو إيطالي',
     nameEn: 'Italian Espresso',
@@ -212,6 +228,7 @@ const DISHES = [
   },
   {
     id: 'drink-affogato',
+    image: 'images/art/drink-affogato.jpg',
     category: 'drinks',
     nameAr: 'أفوغاتو بالآيس كريم',
     nameEn: 'Affogato with Ice Cream',
@@ -221,6 +238,7 @@ const DISHES = [
   },
   {
     id: 'drink-limonata',
+    image: 'images/art/drink-limonata.jpg',
     category: 'drinks',
     nameAr: 'ليموناتا إيطالية',
     nameEn: 'Italian Limoncello Spritz',

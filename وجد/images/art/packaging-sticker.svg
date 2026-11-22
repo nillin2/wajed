@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="ملصقات تحمل هوية المطعم">
+<defs>
+<linearGradient id="bg" x2="0" y2="1"><stop stop-color="#F2DCE3"/><stop offset="1" stop-color="#F5EBDD"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#5C0412" flood-opacity=".28"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="180" r="150" fill="#FFF8EE" opacity=".5"/>
+<g filter="url(#s)">
+<g transform="rotate(-14 156 150)"><circle cx="156" cy="150" r="62" fill="#7A0618"/><circle cx="156" cy="150" r="50" fill="#FAF3E7"/><circle cx="156" cy="150" r="38" fill="none" stroke="#D99AA8" stroke-width="3" stroke-dasharray="6 6"/></g>
+<g transform="rotate(12 322 148)"><circle cx="322" cy="148" r="62" fill="#D99AA8"/><circle cx="322" cy="148" r="50" fill="#FAF3E7"/><circle cx="322" cy="148" r="38" fill="none" stroke="#7A0618" stroke-width="3" stroke-dasharray="6 6"/></g>
+<g transform="rotate(-6 240 268)"><circle cx="240" cy="268" r="58" fill="#373D2B"/><circle cx="240" cy="268" r="46" fill="#FAF3E7"/><circle cx="240" cy="268" r="35" fill="none" stroke="#D99AA8" stroke-width="3" stroke-dasharray="6 6"/></g>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="مكونات طازجة: طماطم، ريحان، موزاريلا وزيت زيتون">
+<defs>
+<radialGradient id="bg" cx="50%" cy="40%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#DCC3A9"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#5C0412" flood-opacity=".28"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<rect x="34" y="60" width="412" height="240" rx="26" fill="#C89A67" filter="url(#s)"/>
+<rect x="34" y="60" width="412" height="240" rx="26" fill="none" stroke="#A97A4A" stroke-width="4"/>
+<g filter="url(#s)">
+<g><circle cx="138" cy="148" r="42" fill="#C93726"/><circle cx="138" cy="148" r="32" fill="#E2563F"/><path d="M138 110q14-16 26-14-8 16-26 14z" fill="#3F6B2E"/></g>
+<circle cx="210" cy="142" r="30" fill="#FBF4E4"/><circle cx="248" cy="166" r="26" fill="#FBF4E4"/>
+<g fill="#3F6B2E"><path d="M316 132q18-26 34-16-8 22-34 16z"/><path d="M338 160q24-18 34 0-22 10-34 0z"/><path d="M300 170q16-22 30-12-8 20-30 12z"/></g>
+<g fill="#E8D9B8"><circle cx="150" cy="240" r="26"/><circle cx="206" cy="248" r="22"/></g>
+<g><ellipse cx="360" cy="244" rx="40" ry="30" fill="#7A0618" opacity=".5"/><path d="M332 244q28-22 56 0-28 22-56 0z" fill="#A67B32"/><ellipse cx="360" cy="244" rx="14" ry="9" fill="#E8C874"/></g>
+</g>
+</svg>

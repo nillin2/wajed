@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="باستا بالصلصة الحارة والكباب الإيطالي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#F7E6EB"/><stop offset="1" stop-color="#EEDCC6"/></radialGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#5C0412" flood-opacity=".3"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF9F0" opacity=".6"/>
+<g filter="url(#s)">
+<ellipse cx="240" cy="196" rx="142" ry="104" fill="#FDF8EF"/><ellipse cx="240" cy="192" rx="122" ry="86" fill="#EFE4D2"/>
+<ellipse cx="240" cy="188" rx="108" ry="74" fill="#C23322"/>
+<g fill="#EDBF6C"><rect x="156" y="150" width="46" height="22" rx="8" transform="rotate(-18 156 150)"/><rect x="220" y="140" width="46" height="22" rx="8" transform="rotate(12 220 140)"/><rect x="274" y="166" width="46" height="22" rx="8" transform="rotate(-10 274 166)"/><rect x="176" y="212" width="46" height="22" rx="8" transform="rotate(16 176 212)"/><rect x="244" y="212" width="46" height="22" rx="8" transform="rotate(-12 244 212)"/></g>
+<g fill="#82331F"><circle cx="198" cy="178" r="17"/><circle cx="286" cy="200" r="18"/><circle cx="232" cy="222" r="14"/></g>
+<g fill="#B8482A" opacity=".8"><circle cx="188" cy="146" r="3"/><circle cx="292" cy="152" r="3"/><circle cx="316" cy="202" r="3"/><circle cx="152" cy="184" r="3"/></g>
+<g fill="#3F6B2E"><path d="M210 200q14-14 26 0-14 8-26 0z"/><path d="M262 166q14-14 26 0-14 8-26 0z"/></g>
+</g>
+</svg>

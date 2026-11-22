@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="برغر بالترويلي إيطالي">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%"><stop stop-color="#EBD6D9"/><stop offset="1" stop-color="#DCC3A9"/></radialGradient>
+<linearGradient id="bn" x2="0" y2="1"><stop stop-color="#E4B17C"/><stop offset="1" stop-color="#9E5C30"/></linearGradient>
+<linearGradient id="sa" x2="0" y2="1"><stop stop-color="#8B6244"/><stop offset="1" stop-color="#4A2C1C"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#2A1005" flood-opacity=".38"/></filter>
+</defs>
+<rect width="480" height="360" fill="url(#bg)"/>
+<circle cx="240" cy="176" r="146" fill="#FFF6EA" opacity=".45"/>
+<ellipse cx="240" cy="284" rx="130" ry="18" fill="#3A1A0C" opacity=".2"/>
+<g filter="url(#s)">
+<path d="M112 190a128 62 0 0 0 256 0z" fill="#8C4E28"/>
+<path d="M112 184a128 70 0 0 1 256 0q-128-38-256 0z" fill="url(#bn)"/>
+<g fill="#F4DCB4"><ellipse cx="168" cy="154" rx="6" ry="3"/><ellipse cx="216" cy="140" rx="6" ry="3"/><ellipse cx="266" cy="142" rx="6" ry="3"/><ellipse cx="308" cy="158" rx="6" ry="3"/></g>
+<path d="M114 180q34-22 64-4t66-8 66 8 66-4v18q-130 32-262 0z" fill="#4F6E33"/>
+<path d="M116 194l32 28 34-20 34 26 36-22 34 24 32-20 26 14v20q-132 30-264 0z" fill="#F1E4B7"/>
+<g fill="#A67C55"><path d="M140 208q14-24 30-8-8 16-30 8z"/><path d="M276 202q18-22 30-4-14 14-30 4z"/><path d="M326 214q12-18 26-4-12 12-26 4z"/></g>
+<rect x="114" y="214" width="252" height="36" rx="15" fill="#5E2F1D"/>
+<path d="M116 240q126 26 250 0v14q-126 24-250 0z" fill="url(#sa)"/>
+<g fill="#E8D4A6" opacity=".8"><path d="M150 250q40 10 80 0-30 18-80 0z"/><path d="M260 252q40 10 74 0-28 16-74 0z"/></g>
+<path d="M112 252a128 56 0 0 0 256 0z" fill="url(#bn)"/>
+</g>
+</svg>

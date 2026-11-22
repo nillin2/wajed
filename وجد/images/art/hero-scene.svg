@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="أطباق إيطالية أمريكية على طاولة دافئة">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F5EBDD"/><stop offset=".42" stop-color="#E8C7CF"/><stop offset="1" stop-color="#5C0412"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#F6D7A8" stop-opacity=".9"/><stop offset="1" stop-color="#F6D7A8" stop-opacity="0"/></radialGradient>
+<linearGradient id="bn" x2="0" y2="1"><stop stop-color="#EDC494"/><stop offset="1" stop-color="#B9753F"/></linearGradient>
+<linearGradient id="sa" x2="0" y2="1"><stop stop-color="#D8462F"/><stop offset="1" stop-color="#7A0618"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#3A0209" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="560" fill="url(#bg)"/>
+<circle cx="310" cy="280" r="260" fill="url(#glow)"/>
+<path d="M0 470 Q300 415 620 470 T1200 450 V560 H0Z" fill="#7A0618" opacity=".22"/>
+<ellipse cx="330" cy="330" rx="240" ry="120" fill="#FFFAF2" filter="url(#sh)"/>
+<g transform="translate(150 150)">
+<path d="M40 150a120 62 0 0 0 240 0z" fill="#B9753F"/>
+<path d="M40 142a120 70 0 0 1 240 0q-120-34-240 0z" fill="url(#bn)"/>
+<g fill="#F6E3C2"><ellipse cx="92" cy="118" rx="6" ry="3" transform="rotate(-20 92 118)"/><ellipse cx="132" cy="104" rx="6" ry="3" transform="rotate(12 132 104)"/><ellipse cx="180" cy="106" rx="6" ry="3" transform="rotate(-15 180 106)"/><ellipse cx="222" cy="122" rx="6" ry="3" transform="rotate(22 222 122)"/><ellipse cx="158" cy="126" rx="6" ry="3"/></g>
+<path d="M42 140q30-22 60-4t60-6 60 6 60-4v16q-120 30-240 0z" fill="#5E7A34"/>
+<path d="M44 154l30 26 32-20 32 24 34-22 30 24 30-22 24 14v20q-120 28-240 0z" fill="url(#ch)"/>
+<rect x="44" y="170" width="232" height="34" rx="14" fill="#6B341F"/>
+<rect x="44" y="198" width="232" height="12" rx="6" fill="url(#sa)"/>
+<path d="M40 210a120 56 0 0 0 240 0z" fill="url(#bn)"/>
+</g>
+<g transform="translate(438 214) rotate(-8)">
+<circle cx="100" cy="100" r="100" fill="#D9935A"/><circle cx="100" cy="100" r="88" fill="#F1B768"/>
+<circle cx="100" cy="100" r="76" fill="url(#sa)"/>
+<circle cx="100" cy="100" r="68" fill="#F6DA82"/>
+<g fill="#FFF3D0" opacity=".9"><circle cx="72" cy="78" r="19"/><circle cx="126" cy="70" r="17"/><circle cx="140" cy="118" r="20"/><circle cx="80" cy="134" r="16"/></g>
+<g fill="#7A0618"><circle cx="78" cy="94" r="10"/><circle cx="123" cy="105" r="11"/><circle cx="98" cy="132" r="9"/></g>
+<path d="M62 60q16-16 30-2-18 4-30 2zM132 92q18-12 28 4-20 0-28-4z" fill="#3F6B2E"/>
+</g>
+<g transform="translate(690 268)" stroke="#E8B765" stroke-width="8" fill="none" stroke-linecap="round">
+<path d="M0 20q40-34 80 0"/><path d="M10 44q40-34 80 0"/><path d="M0 68q40-34 80 0"/><path d="M20-4q40-34 80 0"/>
+<circle cx="118" cy="46" r="26" fill="url(#sa)" stroke="none"/>
+<circle cx="96" cy="74" r="18" fill="#7A0618" stroke="none"/>
+</g>
+<g fill="#F5EBDD" opacity=".55"><circle cx="470" cy="110" r="4"/><circle cx="520" cy="86" r="3"/><circle cx="250" cy="96" r="4"/><circle cx="1020" cy="430" r="4"/><circle cx="1080" cy="380" r="3"/></g>
+</svg>
